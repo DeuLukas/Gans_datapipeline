@@ -1,4 +1,4 @@
-schema = "city_scooter_analysis"
+schema = "gans_wbsproject"
 host  = "localhost"
 user = "root" 
 password = "Insert_your_SQL_root_password"

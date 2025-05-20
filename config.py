@@ -5,8 +5,9 @@ from dotenv import load_dotenv
 #load environment variables from .env file
 load_dotenv()
 
-# root and API configuration
-OPENWEATHER_API_KEY = os.getenv('OPENWEATHER_API_KEY')
+# root configuration
 SQL_ROOT = os.getenv('SQL_ROOT')
-AIRPORT_GEO_API_KEY = os.getenv('AIRPORT_GEO_API_KEY')
-RAPID_API_WBS = os.getenv('RAPID_API_WBS')
+# API key for Openweathermap.org
+OPENWEATHER_API_KEY = os.getenv('OPENWEATHER_API_KEY')
+# Rapid API for Airport by location and Airport departures
+RAPID_API_KEY = os.getenv('RAPID_API_KEY')
